@@ -15,10 +15,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import com.astatineera.systemhelper.Size
 
 class SystemHelper(var activity: Activity) {
-    val zero = '0'
-    val zero_s: String = zero.toString()
-    val empty = ""
-    
+
     var hideSystemBarIsCalled: Boolean = false
     var systemBarDuration: Long = 3000
 
